@@ -1,0 +1,24 @@
+{
+  "name": "kanban",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build src/index.html --out-dir wwwroot",
+    "build.release": "parcel build src/index.html --out-dir wwwroot --public-url ./ --no-source-maps --no-cache"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.2",
+    "bulma": "^0.7.4",
+    "bulmaswatch": "^0.7.2",
+    "js-cookie": "^2.2.0",
+    "mithril": "^1.1.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "parcel-bundler": "^1.12.3"
+  }
+}
